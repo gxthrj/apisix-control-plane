@@ -41,12 +41,12 @@ gateways:
 - foo-gw
 http:
 - route:
- - destination:
+  - destination:
      port: 28002
      host: foo-server
      subset: foo-v1
      weight: 10
- label：
+  label:
     app: foo
     version: v1
   match:
